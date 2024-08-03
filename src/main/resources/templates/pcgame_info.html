@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>PC Game</title>
+</head>
+<body>
+<div>
+    <p th:text="'Title ' + ${pcGame.getTitle()}"></p>
+    <p th:text="'Producer ' + ${pcGame.getProducer()}"></p>
+    <p th:text="'Pegi Age ' + ${pcGame.getMinimumAge()}"></p>
+    <p th:text="'AAA ' + ${pcGame.getIsAAA()}"></p>
+</div>
+
+</body>
+</html>
